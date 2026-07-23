@@ -187,7 +187,7 @@ function renderChrome() {
     <div id="preloader" class="fixed inset-0 z-[110] flex items-center justify-center bg-ink">
       <div class="relative flex flex-col items-center gap-6">
         <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-20 w-auto object-contain" />
-        
+       
       </div>
     </div>
     <div id="scroll-progress" class="fixed inset-x-0 top-0 z-[90] h-[3px] origin-left bg-limeglow" style="transform:scaleX(0)"></div>

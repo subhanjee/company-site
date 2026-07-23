@@ -25,10 +25,15 @@ html.light [class*="bg-white/"] {
 html.light [class*="border-white/"] {
   border-color: rgba(64, 64, 65, 0.14);
 }
-html.light .text-limeglow {
+html.light .text-limeglow,
+html.light .hover\:text-limeglow:hover,
+html.light .focus\:text-limeglow:focus,
+html.light .group:hover .group-hover\:text-limeglow {
   color: #6e7c39;
 }
-html.light .fill-limeglow {
+html.light .fill-limeglow,
+html.light .hover\:fill-limeglow:hover,
+html.light .group:hover .group-hover\:fill-limeglow {
   fill: #6e7c39;
 }
 
