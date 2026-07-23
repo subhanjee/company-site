@@ -64,7 +64,7 @@ function renderNavbar(active) {
   <header id="navbar" class="fixed inset-x-0 top-4 z-[80] flex justify-center px-4 opacity-0 transition-all duration-700" style="transform:translateY(-70px);transition-timing-function:cubic-bezier(.22,1,.36,1)">
     <div id="navbar-pill" class="flex items-center gap-1 rounded-full border py-1.5 pl-2 pr-1.5 transition duration-500 border-white/8 bg-ink-deep/60 backdrop-blur-lg">
       <a href="index.html" aria-label="Trisage Solutions home" class="mr-1 flex h-9 items-center">
-        <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-7 w-auto object-contain" />
+        <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-12 w-auto object-contain" />
       </a>
       <nav class="hidden items-center md:flex">${links}</nav>
       <a href="contact.html" class="ml-1 hidden items-center gap-1.5 rounded-full bg-limeglow px-5 py-2 text-[13px] font-bold text-[#404041] shadow-[0_0_20px_rgba(231,255,158,0.25)] transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(231,255,158,0.4)] md:flex">
@@ -117,7 +117,7 @@ function renderFooter() {
         <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div class="reveal">
             <a href="index.html" class="inline-flex items-center gap-2.5">
-              <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-9 w-auto object-contain" />
+              <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-20 w-auto object-contain" />
             </a>
             <p class="mt-4 max-w-xs text-sm leading-relaxed text-creamy/45">${COMPANY.tagline} An enterprise remote staffing &amp; talent solutions partner helping businesses scale global teams.</p>
             <div class="mt-6 flex gap-3">${socialsHtml}</div>
@@ -152,8 +152,8 @@ function renderChrome() {
   return `
     <div id="preloader" class="fixed inset-0 z-[110] flex items-center justify-center bg-ink">
       <div class="relative flex flex-col items-center gap-6">
-        <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-12 w-auto object-contain" />
-        <div class="h-[2px] w-48 overflow-hidden rounded-full bg-white/10">
+        <img src="assets/trisage-logo.png" alt="Trisage Solutions" class="h-20 w-auto object-contain" />
+        <div class="h-[1px] w-48 overflow-hidden rounded-full bg-white/10">
           <div class="preloader-bar h-full bg-limeglow"></div>
         </div>
       </div>

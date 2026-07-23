@@ -1,0 +1,29 @@
+/* Trisage Solutions — Logo Design Tokens
+   Every color below is pulled 1:1 from the live site's own design system:
+   css/style.css (:root custom properties) and js/tailwind-config.js.
+   The logo introduces zero colors outside this set. */
+
+:root {
+  /* Accent — the site's CTA / highlight color (bg-limeglow, button glows,
+     eyebrow labels, focus rings). Used for the mark's lead facet and the
+     "SOLUTIONS" caption. */
+  --logo-accent: #e7ff9e;        /* Lime Glow — matches --color-limeglow */
+
+  /* Secondary — deep neutral used for dark chrome surfaces (navbar pill,
+     footer, badge backgrounds). Used for the mark's badge fill. */
+  --logo-secondary: #313132;     /* Ink Deep — matches --color-ink-deep */
+
+  /* Neutral (dark) — base dark surface / body background in dark theme. */
+  --logo-neutral-dark: #404041;  /* Ink — matches --color-ink */
+
+  /* Neutral (light) — warm paper tone used as primary text color on dark
+     surfaces (text-creamy). Used for the wordmark on dark backgrounds and
+     the mark's receding facet. */
+  --logo-neutral-light: #eae6db; /* Creamy — matches --color-creamy */
+
+  /* Derived — the exact color the site substitutes for limeglow *text* on
+     light backgrounds (see `html.light .text-limeglow` in css/style.css),
+     since full-brightness lime fails contrast as small text on light paper.
+     Used only for the "SOLUTIONS" caption in the light-background lockup. */
+  --logo-accent-on-light: #6e7c39;
+}

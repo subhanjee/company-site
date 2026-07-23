@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Trisage Solutions">
+  <title>Trisage Solutions — light background version</title>
+  <g transform="translate(6,12) scale(0.875)">
+    <circle cx="32" cy="32" r="31" fill="none" stroke="#313132" stroke-opacity="0.25" stroke-width="1.5"/>
+    <path d="M17 46.5 L17 25 L32 14.5 L30.5 46.5 Z" fill="#e7ff9e"/>
+    <path d="M47 46.5 L47 25 L32 14.5 L33.5 46.5 Z" fill="#313132" fill-opacity="0.45"/>
+    <path d="M30.5 46.5 L32 14.5 L33.5 46.5 Z" fill="#313132" fill-opacity="0.18"/>
+  </g>
+  <text x="80" y="44" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="0.5" fill="#313132">TRISAGE</text>
+  <text x="80" y="60" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="4.5" fill="#6e7c39">SOLUTIONS</text>
+</svg>
